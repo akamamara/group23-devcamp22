@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import React from "react";
 import airServis from "../../assets/kangAir.jpg";
 import { servisBangunan } from "../../utils/dummyServis";
@@ -34,15 +34,23 @@ function MainContent({ type }) {
 	}
 	if (type === "currentProject") {
 		return (
-			<div className="max-w-full overflow-scroll flex gap-6 scrollbar-hide">
+			<div className="max-w-full overflow-scroll flex gap-4 scrollbar-hide">
 				{servisBangunan.map((servis, ind) => (
-					<div key={ind} className="relative flex-1 min-w-[300px]">
-						<img
-							src="https://i.ytimg.com/vi/5UPdRF5xpVM/maxresdefault.jpg"
-							className="w-full h-auto"
-						/>
-						<div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full text-center">
-							<h1 className="text-green-300">{servis.name}</h1>
+					<div
+						key={ind}
+						className="relative flex-1 min-w-[280px] h-32 rounded-[8px] border bg-white"
+					>
+						<div className="flex flex-row absolute bottom-0 left-0 p-2">
+							<Typography sx={{ fontSize: "3.25rem" }}>🏛️</Typography>
+							<div>
+								<Typography variant="h2" sx={{ fontSize: "1.2rem" }}>
+									{servis.category}
+								</Typography>
+								<Typography sx={{ opacity: 0.7 }}>{servis.name}</Typography>
+								<Typography sx={{ opacity: 0.7 }}>
+									{servis.rangePrice}
+								</Typography>
+							</div>
 						</div>
 					</div>
 				))}
@@ -51,15 +59,23 @@ function MainContent({ type }) {
 	}
 	if (type === "history") {
 		return (
-			<div className="max-w-full overflow-scroll flex gap-6 scrollbar-hide">
+			<div className="max-w-full overflow-scroll flex gap-4 scrollbar-hide">
 				{servisBangunan.map((servis, ind) => (
-					<div key={ind} className="relative flex-1 min-w-[300px]">
-						<img
-							src="https://i.ytimg.com/vi/5UPdRF5xpVM/maxresdefault.jpg"
-							className="w-full h-auto"
-						/>
-						<div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-full text-center">
-							<h1 className="text-green-300">{servis.name}</h1>
+					<div
+						key={ind}
+						className="relative flex-1 min-w-[280px] h-32 rounded-[8px] border bg-white"
+					>
+						<div className="flex flex-row absolute bottom-0 left-0 p-2">
+							<Typography sx={{ fontSize: "3.25rem" }}>🏛️</Typography>
+							<div>
+								<Typography variant="h2" sx={{ fontSize: "1.2rem" }}>
+									{servis.category}
+								</Typography>
+								<Typography sx={{ opacity: 0.7 }}>{servis.name}</Typography>
+								<Typography sx={{ opacity: 0.7 }}>
+									{servis.rangePrice}
+								</Typography>
+							</div>
 						</div>
 					</div>
 				))}
