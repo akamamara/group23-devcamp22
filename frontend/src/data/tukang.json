@@ -209,11 +209,59 @@
             ]
         },
         {
-            "id": 11,
+            "id": 12,
             "name": "Dadang Sukmawan",
             "description": "",
             "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
             "profile_img": "https://images.generated.photos/SqHcHuDR3S9dbEe70oMHk3lt1yR9m7tOfm-75RVcSak/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjMyNzYxLmpwZw.jpg",
+            "price_low":  5000000,
+            "price_hihg": 8000000,
+            "category": "Tukang Bangunan",
+            "serives": [
+                "Mengecat dinding",
+                "Pemsangan ubin",
+                "Memperbaiki atap",
+                "Pembuatan Pagar"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Reza Laksana",
+            "description": "",
+            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
+            "profile_img": "https://images.generated.photos/Mowr8aCIlBnvxEU4OAPFD5REvZ9-kLi3NU7MYQs0wk4/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NDY1MjM1LmpwZw.jpg",
+            "price_low":  5000000,
+            "price_hihg": 8000000,
+            "category": "Tukang Bangunan",
+            "serives": [
+                "Mengecat dinding",
+                "Pemsangan ubin",
+                "Memperbaiki atap",
+                "Pembuatan Pagar"
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Agung Pradana",
+            "description": "",
+            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
+            "profile_img": "https://images.generated.photos/ys-TAzxcHEZnvoCVa9uAFbWMh2RQIpwsMkRYEM7aLqQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NjIyMTExLmpwZw.jpg",
+            "price_low":  5000000,
+            "price_hihg": 8000000,
+            "category": "Tukang Bangunan",
+            "serives": [
+                "Mengecat dinding",
+                "Pemsangan ubin",
+                "Memperbaiki atap",
+                "Pembuatan Pagar"
+            ]
+        },
+        {
+            "id": 15,
+            "name": "Rudi Widodo",
+            "description": "",
+            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
+            "profile_img": "https://images.generated.photos/xgc1xk29qYg8ROF9--5lG8n5KCjeZKwTdpy2EkVCM7Q/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDMzNTU2LmpwZw.jpg",
             "price_low":  5000000,
             "price_hihg": 8000000,
             "category": "Tukang Bangunan",
