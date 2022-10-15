@@ -5,7 +5,6 @@ import { useDispatch } from 'react-redux';
 import { test } from './reducers/initialReducer';
 
 function App() {
-  const dispatch = useDispatch();
   return (
     <div className="App">
       <header className="App-header">
