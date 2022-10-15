@@ -3,6 +3,12 @@
 
 import { createTheme } from "@mui/material";
 
+const textColor = {
+	primary: "#323232FF",
+	secondary: "#32323299",
+	disabled: "#32323260",
+};
+
 export const dummyColor = {
 	primary: {
 		main: "#787878",
@@ -32,10 +38,19 @@ export const paletteColor = {
 const themesDefault = createTheme({
 	palette: {
 		...dummyColor,
+		text: { ...textColor },
 	},
 	spacing: 8,
 	shape: {
 		borderRadius: 12,
+	},
+	typography: {
+		opacity: 0.7,
+		h1: {
+			fontWeight: 400,
+			fontSize: "1.6rem",
+			lineHeight: 1.15,
+		},
 	},
 });
 
