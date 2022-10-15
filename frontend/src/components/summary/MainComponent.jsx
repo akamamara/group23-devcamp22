@@ -10,7 +10,7 @@ export default function MainComponent({ type, tukang, bahan }) {
   const { data } = dataTukang;
   const {Bahan} = material
 
-  const relatedTukang = Object.keys(Tukang) ? Tukang : data[tukang[0] - 1];
+  const relatedTukang = Object.keys(Tukang) > 0 ? Tukang : data[tukang[0] - 1];
   if (type === "tukang") {
     return (
       <div className="space-y-3 flex flex-col">
