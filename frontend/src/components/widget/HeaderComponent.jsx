@@ -9,15 +9,15 @@ function HeaderComponent({ type }) {
 	if (type === "servis") {
 		return (
 			<div
-				className="space-y-3 py-3 px-4 "
+				className="space-y-3 pt-3 px-4"
 				onClick={routing.handleRoutes("/input")}
 			>
-				<div className="flex items-center gap-6">
+				<div className="flex items-center gap-4">
 					<img src={add} className="w-6 h-6 cursor-pointer" />
 					<h1>Apa yang bisa kami bantu ?</h1>
 				</div>
 
-				<div className="border-slate-300 border-b px-5"></div>
+				<hr className="border-slate-300 border-b px-0" />
 			</div>
 		);
 	}

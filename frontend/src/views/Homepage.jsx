@@ -2,10 +2,11 @@ import React from "react";
 import Widget from "../components/Widget";
 import icon from "../assets/megaphone.png";
 import user from "../assets/user.png";
+import FullViewLayout from "../components/Layout/FullViewLayout";
 
 export default function Homepage() {
 	return (
-		<main className="py-8 px-7 bg-slate-200 min-h-screen">
+		<FullViewLayout>
 			<div className="flex justify-between items-center">
 				<img src={icon} className="w-8 h-8 cursor-pointer" />
 				<img src={user} className="w-8 h-8 cursor-pointer" />
@@ -15,6 +16,6 @@ export default function Homepage() {
 				<Widget type="currentProject" />
 				<Widget type="history" />
 			</div>
-		</main>
+		</FullViewLayout>
 	);
 }
