@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import initialReducer from '../features/initialReducer';
+import problemDetailsReducer from '../reducers/problemDetailsReducer';
 
 export const store = configureStore({
   reducer: {
-    setup: initialReducer,
+    problemDetails: problemDetailsReducer,
   },
 });

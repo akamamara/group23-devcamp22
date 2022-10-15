@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="max-w-[600px] relative mx-auto h-screen overflow-scroll scrollbar-hide">
       {/* <Homepage /> */}
-      <SummaryDetails />
+      <ProblemDetails />
+      {/* <SummaryDetails />
       <div className='sticky bg-white px-7 py-6 bottom-0 left-0 right-0 scrollbar-hide'>
         <div className='flex gap-6 justify-between'>
           <h1>Total biaya</h1>
@@ -20,7 +21,7 @@ function App() {
         <button className='flex-1 px-5 py-2 bg-blue-300 rounded-xl mt-10'>Pesan Sekarang</button>
         <button className='flex-1 px-5 py-2 bg-blue-300 rounded-xl mt-10'>Ubah Material</button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

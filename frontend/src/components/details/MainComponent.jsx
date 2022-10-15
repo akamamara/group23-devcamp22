@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-export default function MainComponent({ type }) {
+export default function MainComponent({ type, onChange }) {
   const [preview, setPreview] = useState([]);
   const [images, setImages] = useState([]);
   const onChangeImageNFT = (e) => {
@@ -31,6 +31,7 @@ export default function MainComponent({ type }) {
               className="mt-1 block w-full rounded-md border-gray-300 outline-none shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-5 min-h-[250px]"
               placeholder="Bagaimana Masalahmu"
               defaultValue={""}
+              onChange={onChange}
             />
           </div>
           <p className="mt-2 text-sm text-gray-500">
