@@ -1,276 +1,276 @@
 {
-    "data" : [
-        {
-            "id": 1,
-            "name": "Rudi Setiadi",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
-            "profile_img": "https://images.generated.photos/lby-AqX1D1WkyGljF4B0TFSjhu0dJx7Sh76V2LY785E/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NjAxMTU1LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Heru Sunandar",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/ULY0hGog-fvXFtR1wPhD5FfkL4hRYyeJphE0keXvOtw/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTI1NDQ2LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 3,
-            "name": "Doni Prasetya",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/XbhnlLZ-2S4qebolpuBHhuhAU3nxNzigHudY5qrD62M/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/Nzg4NTcxLmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 4,
-            "name": "Hadi Gunawan",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/XbhnlLZ-2S4qebolpuBHhuhAU3nxNzigHudY5qrD62M/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/Nzg4NTcxLmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 5,
-            "name": "Hadi Gunawan",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/a5FWEf0K3btRSzqLcAS8W6DoHPfWc2lU13KLmpldfDA/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjAyNTcwLmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 6,
-            "name": "Adi Nugraha",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/E-Q-iBmNJWMMW_VWhsWM8o_qU80WrNQFNhqkFCxRshY/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MzI0NjQ5LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 7,
-            "name": "Agus Setyoko",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/WNbLRGPyf2wkAzenrH6-DgDqyFYDo59-V7VHvzc_zJo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDY2ODI5LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 8,
-            "name": "Handi Wijaya",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/n0eDmp-LSFAWUDpJNQVBY3hgvXdZ6G6zcB2xFwvp050/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NDIyMDQ3LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 8,
-            "name": "Lukman Hakim",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/Mowr8aCIlBnvxEU4OAPFD5REvZ9-kLi3NU7MYQs0wk4/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NDY1MjM1LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 9,
-            "name": "David Hermawan",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/mAXP1wkAUi2O2Wjw7UX8xYavu09-t2PiXivV3dXT-0g/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NzYyODc5LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 9,
-            "name": "Asep Hidayat",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/SY2ABY3tFB0RNTwguv_akweT0n4-LulH90CT0EXjgjY/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/OTI4MzQ5LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 10,
-            "name": "Bayu Kurniawan",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/dtkiMiXjKaVigr4PC__JY3hvUtfyKgYz8ozbVAB-DXQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTg2Nzk0LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 11,
-            "name": "Rendra Heriyawan",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/TqjT1RM_VbA3XX9sAepyBoJz1nxd0btgQAsLglVqVjw/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjQ5NTc0LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 12,
-            "name": "Dadang Sukmawan",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/SqHcHuDR3S9dbEe70oMHk3lt1yR9m7tOfm-75RVcSak/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjMyNzYxLmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 13,
-            "name": "Reza Laksana",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/Mowr8aCIlBnvxEU4OAPFD5REvZ9-kLi3NU7MYQs0wk4/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NDY1MjM1LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 14,
-            "name": "Agung Pradana",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/ys-TAzxcHEZnvoCVa9uAFbWMh2RQIpwsMkRYEM7aLqQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NjIyMTExLmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        },
-        {
-            "id": 15,
-            "name": "Rudi Widodo",
-            "description": "",
-            "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",   
-            "profile_img": "https://images.generated.photos/xgc1xk29qYg8ROF9--5lG8n5KCjeZKwTdpy2EkVCM7Q/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDMzNTU2LmpwZw.jpg",
-            "price_low":  5000000,
-            "price_high": 8000000,
-            "category": "Tukang Bangunan",
-            "services": [
-                "Mengecat dinding",
-                "Pemsangan ubin",
-                "Memperbaiki atap",
-                "Pembuatan Pagar"
-            ]
-        }
-    ]
+  "data": [
+    {
+      "id": 1,
+      "name": "Rudi Setiadi",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/lby-AqX1D1WkyGljF4B0TFSjhu0dJx7Sh76V2LY785E/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NjAxMTU1LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Heru Sunandar",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/ULY0hGog-fvXFtR1wPhD5FfkL4hRYyeJphE0keXvOtw/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTI1NDQ2LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Doni Prasetya",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/XbhnlLZ-2S4qebolpuBHhuhAU3nxNzigHudY5qrD62M/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/Nzg4NTcxLmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Hadi Gunawan",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/XbhnlLZ-2S4qebolpuBHhuhAU3nxNzigHudY5qrD62M/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/Nzg4NTcxLmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Hadi Gunawan",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/a5FWEf0K3btRSzqLcAS8W6DoHPfWc2lU13KLmpldfDA/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjAyNTcwLmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Adi Nugraha",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/E-Q-iBmNJWMMW_VWhsWM8o_qU80WrNQFNhqkFCxRshY/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MzI0NjQ5LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Agus Setyoko",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/WNbLRGPyf2wkAzenrH6-DgDqyFYDo59-V7VHvzc_zJo/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDY2ODI5LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Handi Wijaya",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/n0eDmp-LSFAWUDpJNQVBY3hgvXdZ6G6zcB2xFwvp050/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NDIyMDQ3LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Lukman Hakim",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/Mowr8aCIlBnvxEU4OAPFD5REvZ9-kLi3NU7MYQs0wk4/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NDY1MjM1LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "David Hermawan",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/mAXP1wkAUi2O2Wjw7UX8xYavu09-t2PiXivV3dXT-0g/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NzYyODc5LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Asep Hidayat",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/SY2ABY3tFB0RNTwguv_akweT0n4-LulH90CT0EXjgjY/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/OTI4MzQ5LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Bayu Kurniawan",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/dtkiMiXjKaVigr4PC__JY3hvUtfyKgYz8ozbVAB-DXQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MTg2Nzk0LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Rendra Heriyawan",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/TqjT1RM_VbA3XX9sAepyBoJz1nxd0btgQAsLglVqVjw/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjQ5NTc0LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Dadang Sukmawan",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/SqHcHuDR3S9dbEe70oMHk3lt1yR9m7tOfm-75RVcSak/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MjMyNzYxLmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Reza Laksana",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/Mowr8aCIlBnvxEU4OAPFD5REvZ9-kLi3NU7MYQs0wk4/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NDY1MjM1LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Agung Pradana",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/ys-TAzxcHEZnvoCVa9uAFbWMh2RQIpwsMkRYEM7aLqQ/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/NjIyMTExLmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Rudi Widodo",
+      "description": "",
+      "location": "Karet Semanggi, Setiabudi, Jakarta Selatan",
+      "profile_img": "https://images.generated.photos/xgc1xk29qYg8ROF9--5lG8n5KCjeZKwTdpy2EkVCM7Q/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDMzNTU2LmpwZw.jpg",
+      "price_low": 5000000,
+      "price_high": 8000000,
+      "category": "Tukang Bangunan",
+      "services": [
+        "Mengecat dinding",
+        "Pemsangan ubin",
+        "Memperbaiki atap",
+        "Pembuatan Pagar"
+      ]
+    }
+  ]
 }
