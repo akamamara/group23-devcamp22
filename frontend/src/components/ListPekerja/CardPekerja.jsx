@@ -11,7 +11,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import imagePlaceholder from "../../assets/placeholder_image.jpg";
 import ListDetail from "../ListDetailElement";
 
-const CardTukang = () => (
+const CardPekerja = () => (
 	<Card sx={{ mt: 2 }} elevation={2}>
 		<CardActionArea>
 			<CardContent>
@@ -54,4 +54,4 @@ const CardTukang = () => (
 	</Card>
 );
 
-export default CardTukang;
+export default CardPekerja;

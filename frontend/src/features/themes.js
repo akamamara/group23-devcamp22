@@ -37,7 +37,7 @@ export const paletteColor = {
 
 const themesDefault = createTheme({
 	palette: {
-		...dummyColor,
+		...paletteColor,
 		text: { ...textColor },
 	},
 	spacing: 8,
@@ -49,6 +49,11 @@ const themesDefault = createTheme({
 		h1: {
 			fontWeight: 400,
 			fontSize: "1.6rem",
+			lineHeight: 1.15,
+		},
+		h2: {
+			fontWeight: 500,
+			fontSize: "1.2rem",
 			lineHeight: 1.15,
 		},
 	},

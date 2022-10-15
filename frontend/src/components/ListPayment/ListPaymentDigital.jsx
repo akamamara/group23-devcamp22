@@ -28,7 +28,11 @@ export default function ListPaymentDigital() {
 					<ListItemIcon>
 						<GopayIcon fontSize="large" />
 					</ListItemIcon>
-					<ListItemText id="switch-list-label-gopay" primary="GoPay" />
+					<ListItemText
+						id="switch-list-label-gopay"
+						primary="Pakai GoPay"
+						secondary="Rp2.000.000,00"
+					/>
 					<Switch
 						edge="end"
 						onChange={handleToggle("gopay")}
@@ -44,7 +48,8 @@ export default function ListPaymentDigital() {
 					</ListItemIcon>
 					<ListItemText
 						id="switch-list-label-gopaycoins"
-						primary="GoPay Coins"
+						primary="Pakai GoPay Coins"
+						secondary="265.888 Coins"
 					/>
 					<Switch
 						edge="end"
