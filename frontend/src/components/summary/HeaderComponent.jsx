@@ -1,12 +1,14 @@
 import React from "react";
 import dummy from "../../assets/megaphone.png";
 import dataTukang from "../../utils/tukang.json"
+import { useSelector } from "react-redux";
 export default function HeaderComponent({ type, tukang }) {
   const {data} = dataTukang
+  const Tukang = useSelector(state => state.mechanicDetails)
   if (type === "tukang") {
     return (
       <div className="flex-1">
-        <img src={data[tukang[0]-1].profile_img} />
+        <img src={Object.keys(Tukang) ? Tukang.profile_img : data[tukang[0]-1].profile_img} />
       </div>
     );
   }

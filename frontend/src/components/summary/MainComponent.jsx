@@ -3,14 +3,14 @@ import dummy from "../../assets/user.png";
 import useHandleRouting from "../../features/useHandleRouting";
 import dataTukang from "../../utils/tukang.json";
 import material from "../../utils/data.json"
-
+import { useSelector } from "react-redux";
 export default function MainComponent({ type, tukang, bahan }) {
   const routing = useHandleRouting();
+  const Tukang = useSelector(state => state.mechanicDetails)
   const { data } = dataTukang;
   const {Bahan} = material
-  console.log(bahan, Bahan)
-  bahan.map(b => console.log(b))
-  const relatedTukang = data[tukang[0] - 1];
+
+  const relatedTukang = Object.keys(Tukang) ? Tukang : data[tukang[0] - 1];
   if (type === "tukang") {
     return (
       <div className="space-y-3 flex flex-col">
