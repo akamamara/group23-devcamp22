@@ -11,7 +11,7 @@ export default function ListMaterial() {
 			<Stack direction="row" spacing={1.5} alignItems="center">
 				<img
 					src={imagePlaceholder}
-					class="object-cover h-[4rem] w-[4rem] rounded-[8px]"
+					className="object-cover h-[4rem] w-[4rem] rounded-[8px]"
 					alt="Placeholder"
 				/>
 				<ListHeaderMaterial title="Cat Aviant" price="20.000,00" />

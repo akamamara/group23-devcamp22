@@ -19,7 +19,7 @@ const CardTukang = () => (
 					<img
 						src={imagePlaceholder}
 						alt="Placeholder"
-						class="object-cover h-[6rem] w-[6rem] rounded-full"
+						className="object-cover h-[6rem] w-[6rem] rounded-full"
 					/>
 					<Stack>
 						<Typography
