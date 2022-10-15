@@ -4,4 +4,5 @@ Frontend :
 Mobile web apps supported by ReactJS, MUI, TailWind, Redux
 
 Backend :
-Python + REST API
+Dummy data (Now)
+https://devcamp.kuadran.co/swagger/ → Python + REST API (Prev)
