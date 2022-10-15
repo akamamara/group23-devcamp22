@@ -2,10 +2,13 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import Details from "../components/Details";
+import ListViewLayout from "../components/Layout/ListViewLayout";
+import HeadingPage from "../components/HeadingPage/HeadingPage";
 import useHandleRouting from "../features/useHandleRouting";
 import NLPData from "../utils/data.json";
 import { addDetailProblem } from "../reducers/problemDetailsReducer";
 import { useHistory } from "react-router-dom";
+import { Button } from "@mui/material";
 
 export default function ProblemDetails() {
 	const routing = useHandleRouting();
@@ -40,21 +43,19 @@ export default function ProblemDetails() {
 	};
 
 	return (
-		<main className="py-8 px-7 bg-slate-200 min-h-screen">
-			<img
-				src="https://api.iconify.design/ic:baseline-arrow-back.svg?color=%23888888"
-				className="w-8 h-8 cursor-pointer"
-				onClick={routing.handleBack()}
-			/>
-			<p className="mt-10">Tukang Bangunan</p>
-			<h1>👋 Apa yang kamu butuhkan</h1>
+		<ListViewLayout>
+			<HeadingPage title={"👋 Apa yang kamu butuhkan"} />
 			<Details type="problem" onChange={handleChange} />
 			<Details type="date" />
 			<Details type="photo" />
-			<div className="flex justify-between">
-				<button>Reset</button>
-				<button onClick={handleSubmit}>Submit</button>
+			<div className="flex justify-between space-x-2 py-6">
+				<Button variant="outlined" fullWidth>
+					Reset
+				</Button>
+				<Button variant="contained" fullWidth onClick={handleSubmit}>
+					Submit
+				</Button>
 			</div>
-		</main>
+		</ListViewLayout>
 	);
 }
