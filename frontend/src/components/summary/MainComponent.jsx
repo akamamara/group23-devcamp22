@@ -22,6 +22,8 @@ export default function MainComponent({ type }) {
 
   if (type === "material") {
     return (
+      <div>
+        
       <div className="border-y border-slate-300 py-6 mt-5 gap-6 grid grid-cols-2">
         <div className="flex col-span-1 gap-4">
           <div className="flex-1">
@@ -86,7 +88,8 @@ export default function MainComponent({ type }) {
             <span>@Rp. 20.000</span>
           </div>
         </div>
-        
+      </div>
+      <button className="px-5 py-2 bg-blue-300 rounded-xl mt-10">Setuju dengan Material ini</button>
       </div>
     );
   }
