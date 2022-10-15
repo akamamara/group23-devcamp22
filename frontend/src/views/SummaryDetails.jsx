@@ -1,53 +1,51 @@
 import React from "react";
-import Summary from "../components/Summary";
-import useHandleRouting from "../features/useHandleRouting";
 import { useSelector } from "react-redux";
+import { Button, ThemeProvider, Typography } from "@mui/material";
+
+import Summary from "../components/Summary";
+import FullViewLayout from "../components/Layout/FullViewLayout";
+import HeadingPage from "../components/HeadingPage/HeadingPage";
+import themesDefault from "../features/themes";
+import useHandleRouting from "../features/useHandleRouting";
+import BottomSheetPrice from "../components/BottomSheetPrice/BottomSheetPrice";
+
 export default function SummaryDetails() {
-  const routing = useHandleRouting();
-  const typeServis = useSelector(state => state.problemDetails)
-  return (
-    <>
-      <div className="py-8 px-7 bg-slate-200 min-h-screen">
-        <img
-          src="https://api.iconify.design/ic:baseline-arrow-back.svg?color=%23888888"
-          className="w-8 h-8 cursor-pointer"
-          onClick={routing.handleBack()}
-        />
-        <div className="space-y-4">
-          <p className="mt-10 cursor-pointer">Belum memenuhi kebutuhan?</p>
-          <h1>👨‍🔧 Rekomendasi Mitra Tukang</h1>
-          <div className="flex flex-col gap-2 py-3">
-            <h2>Berdasarkan</h2>
-            <div className="flex justify-between">
-              <p>Tipe Servis:</p>
-              <span>{typeServis.nama_rinci}</span>
-            </div>
-            <div className="flex justify-between">
-              <p>Beban Kerja:</p>
-              <span>Sedang</span>
-            </div>
-          </div>
-        </div>
-        <Summary type="tukang" />
-        <Summary type="material" />
-      </div>
-      <div className="sticky bg-white px-7 py-6 bottom-0 left-0 right-0 scrollbar-hide">
-        <div className="flex gap-6 justify-between">
-          <h1>Total biaya</h1>
-          <div className="space-y-3">
-            <h2>Tukang-Medium Rp. 6,000,000</h2>
-            <h2>Material Rp. 6,000,000</h2>
-          </div>
-        </div>
-        <div className="flex justify-between gap-6">
-          <button
-            className="flex-1 px-5 py-2 bg-blue-300 rounded-xl mt-10"
-            onClick={routing.handleRoutes("/result/payment")}
-          >
-            Pesan Sekarang
-          </button>
-        </div>
-      </div>
-    </>
-  );
+	const keyPrice = ["Tukang-Medium", "Material"];
+	const valuePrice = ["6,000,000", "6,000,000"];
+
+	const routing = useHandleRouting();
+	const typeServis = useSelector((state) => state.problemDetails);
+	return (
+		<ThemeProvider theme={themesDefault}>
+			<div className="pb-44">
+				<FullViewLayout>
+					<HeadingPage
+						title="👨‍🔧 Rekomendasi Mitra Tukang"
+						subtitle="Sudah memenuhi kebutuhan?"
+					/>
+					<div className="space-y-4">
+						<div className="flex flex-col gap-1 py-3 mb-[-20px]">
+							<Typography variant="h2">Berdasarkan</Typography>
+							<div className="flex justify-between opacity-70">
+								<p>Tipe Servis:</p>
+								<span>{typeServis.nama_rinci}</span>
+							</div>
+							<div className="flex justify-between opacity-70">
+								<p>Beban Kerja:</p>
+								<span>Sedang</span>
+							</div>
+						</div>
+					</div>
+					<Summary type="tukang" />
+					<Summary type="material" />
+				</FullViewLayout>
+			</div>
+			<BottomSheetPrice
+				title={"Biaya"}
+				keyPrice={keyPrice}
+				valuePrice={valuePrice}
+				path="/result/payment"
+			/>
+		</ThemeProvider>
+	);
 }
