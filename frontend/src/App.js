@@ -1,58 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { useDispatch } from 'react-redux';
-import { test } from './reducers/initialReducer';
-
+import Homepage from './views/Homepage';
+import ProblemDetails from './views/ProblemDetails';
+import SummaryDetails from './views/SummaryDetails';
 function App() {
-  const dispatch = useDispatch();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <button onClick={() => dispatch(test())}>TRIGGER REDUX</button>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+    <div className="max-w-[600px] relative mx-auto h-screen overflow-scroll scrollbar-hide">
+      {/* <Homepage /> */}
+      <SummaryDetails />
+      <div className='sticky bg-white px-7 py-6 bottom-0 left-0 right-0 scrollbar-hide'>
+        <div className='flex gap-6 justify-between'>
+          <h1>Total biaya</h1>
+          <div className='space-y-3'>
+            <h2>Tukang-Medium Rp. 6,000,000</h2>
+            <h2>Material Rp. 6,000,000</h2>
+          </div>
+        </div>
+        <div className='flex justify-between gap-6'>
+        <button className='flex-1 px-5 py-2 bg-blue-300 rounded-xl mt-10'>Pesan Sekarang</button>
+        <button className='flex-1 px-5 py-2 bg-blue-300 rounded-xl mt-10'>Ubah Material</button>
+        </div>
+      </div>
     </div>
   );
 }
