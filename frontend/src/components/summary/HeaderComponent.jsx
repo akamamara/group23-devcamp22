@@ -5,11 +5,11 @@ import { useSelector } from "react-redux";
 export default function HeaderComponent({ type, tukang }) {
   const {data} = dataTukang
   const Tukang = useSelector(state => state.mechanicDetails)
-  console.log(data[tukang[0]-1], Tukang)
+  console.log(Tukang,)
   if (type === "tukang") {
     return (
       <div className="flex-1">
-        <img src={Object.keys(Tukang) > 0 ?  Tukang.profile_img : data[tukang[0]-1].profile_img} />
+        <img src={Object.keys(Tukang).length > 0 ?  Tukang.profile_img : data[tukang[0]-1].profile_img} />
       </div>
     );
   }
