@@ -16,6 +16,7 @@ export default function ProblemDetails() {
 	const dispatch = useDispatch();
 	const problemDetails = useSelector((state) => state.problemDetails);
 	console.log(problemDetails);
+
 	const handleSubmit = () => {
 		const keywordsDasar = servis.map((s) => s.dasar);
 		for (let kata of words.split(" ")) {
@@ -26,6 +27,7 @@ export default function ProblemDetails() {
 			}
 		}
 	};
+
 	return (
 		<main className="py-8 px-7 bg-slate-200 min-h-screen">
 			<img
