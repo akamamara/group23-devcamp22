@@ -1,9 +1,4 @@
 {
-	"Tukang":[
-		{
-			"kode_tukang":1,
-		}
-	],
 	"Bahan": [
 		{
 			"kode_bahan": 1,
@@ -53,6 +48,30 @@
 			"img_url": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/3/12/424809465/424809465_784e4326-970f-4de4-a694-deac6b77b499_2048_2048.jpg",
 			"price": 51000
 		},
+		{
+			"kode_bahan": 7,
+			"nama_bahan": "Cat Tembok",
+			"desc": "Nippon Matex Dinding Interior",
+			"satuan": "kaleng",
+			"img_url": "http://static.bmdstatic.com/pk/product/medium/5d5bb5c099bcc.jpg",
+			"price": 100000
+		},
+		{
+			"kode_bahan": 8,
+			"nama_bahan": "Besi Pagar",
+			"desc": "Minimalis 2 meter",
+			"satuan": "meter",
+			"img_url": "https://blogpictures.99.co/pagar-biasa.jpg",
+			"price": 400000
+		},
+		{
+			"kode_bahan": 9,
+			"nama_bahan": "Ubin",
+			"desc": "30x30",
+			"satuan": "pieces",
+			"img_url": "https://4.bp.blogspot.com/-LF6nSKvbOPw/XZ7kLcZCHjI/AAAAAAAADxI/2PuS3Fihvvom33_joggz28wxyPFfuBFVwCK4BGAYYCw/w1280-h720-p-k-no-nu/pekerjaan%2Blantai%2Bdan%2Bdinding.jpeg",
+			"price": 100000
+		}	
 	],
 	"servis":[
 		{
@@ -62,15 +81,83 @@
 				{	
 					"nama_rinci":"Atap Bocor",
 					"keyword": "bocor",
-					"list_tukang":[1,2,3],
-					"list_bahan":[4,5,6]
+					"list_tukang":[2,3],
+					"list_bahan":[
+						{
+							"kode_bahan":4,
+							"jumlah": 1
+						},
+						{
+							"kode_bahan":5,
+							"jumlah": 10
+						},
+						{
+							"kode_bahan":6,
+							"jumlah": 1
+						}]
 				},
 				{
 					"nama_rinci":"Cat Atap",
 					"keyword": "cat",
 					"list_tukang":[1,2,3],
-					"list_bahan":[6]
+					"list_bahan":[
+						{
+							"kode_bahan":6,
+							"jumlah":1
+						}
+					]
 				},
+			]
+		},
+		{
+			"kode_servis":2,
+			"dasar": "tembok",
+			"rinci":[
+				{
+					"nama_rinci":"Cet Tembok",
+					"keyword": "cet",
+					"list_tukang":[8,10,11],
+					"list_bahan":[
+						{
+							"kode_bahan":7,
+							"jumlah": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"kode_servis":3,
+			"dasar": "pagar",
+			"rinci":[
+				{
+					"nama_rinci":"Buat pagar",
+					"keyword": "buat",
+					"list_tukang":[5,2,1],
+					"list_bahan":[
+						{
+							"kode_bahan":8,
+							"jumlah": 1
+						}
+					]
+				}
+			]
+		},
+		{
+			"kode_servis":4,
+			"dasar": "lantai",
+			"rinci":[
+				{
+					"nama_rinci":"Lantai Retak",
+					"keyword": "retak",
+					"list_tukang":[9,1,3],
+					"list_bahan":[
+						{
+							"kode_bahan":9,
+							"jumlah": 5
+						}
+					]
+				}
 			]
 		}
 	]
