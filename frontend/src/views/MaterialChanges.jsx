@@ -79,6 +79,7 @@ export default function MaterialChanges() {
 					title="Biaya Bahan"
 					keyPrice={[""]}
 					valuePrice={["6.000.000"]}
+					path={"/result"}
 				/>
 			</div>
 		</ListViewLayout>

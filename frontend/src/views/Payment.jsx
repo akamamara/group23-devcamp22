@@ -16,7 +16,12 @@ export default function Payment() {
 				<ListPaymentDigital />
 				<ListPayment />
 			</Stack>
-			<BottomSheetPrice title="Biaya" keyPrice={keyArr} valuePrice={valArr} />
+			<BottomSheetPrice
+				title="Biaya"
+				keyPrice={keyArr}
+				valuePrice={valArr}
+				path="/result/success"
+			/>
 		</ListViewLayout>
 	);
 }

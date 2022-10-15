@@ -1,7 +1,16 @@
 import { Box, Button, Divider, Paper, Stack, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
+import useHandleRouting from "../../features/useHandleRouting";
 
-export default function BottomSheetPrice({ title, keyPrice, valuePrice }) {
+export default function BottomSheetPrice({
+	title,
+	keyPrice,
+	valuePrice,
+	replace = false,
+	path = "",
+}) {
+	const routing = useHandleRouting();
+
 	const listText = (arr, type = "") => {
 		if (type === "cash") {
 			return arr.map((item) => (
@@ -47,7 +56,15 @@ export default function BottomSheetPrice({ title, keyPrice, valuePrice }) {
 						spacing={1}
 						sx={{ px: 2 }}
 					>
-						<Button variant="contained" sx={{ minWidth: `calc( 50% - 4px )` }}>
+						<Button
+							variant="contained"
+							sx={{ minWidth: `calc( 50% - 4px )` }}
+							onClick={
+								replace
+									? routing.handleReplace(path)
+									: routing.handleRoutes(path)
+							}
+						>
 							Simpan
 						</Button>
 					</Stack>

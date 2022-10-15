@@ -16,5 +16,11 @@ export default function useHandleRouting() {
 		};
 	}, []);
 
-	return { handleRoutes, handleBack };
+	const handleReplace = useCallback((path) => {
+		return () => {
+			history.replace(path);
+		};
+	}, []);
+
+	return { handleRoutes, handleBack, handleReplace };
 }

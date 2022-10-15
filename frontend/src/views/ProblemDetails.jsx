@@ -1,31 +1,42 @@
 import React, { useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
+
 import Details from "../components/Details";
 import useHandleRouting from "../features/useHandleRouting";
-
 import NLPData from "../utils/data.json";
-import { useDispatch, useSelector } from "react-redux";
 import { addDetailProblem } from "../reducers/problemDetailsReducer";
+import { useHistory } from "react-router-dom";
+
 export default function ProblemDetails() {
 	const routing = useHandleRouting();
+	const history = useHistory();
+
 	const [words, setWords] = useState("");
 	const { servis } = NLPData;
+
 	console.log(servis);
+
 	const handleChange = (e) => {
 		setWords(e.target.value);
 	};
+
 	const dispatch = useDispatch();
 	const problemDetails = useSelector((state) => state.problemDetails);
+
 	console.log(problemDetails);
 
 	const handleSubmit = () => {
 		const keywordsDasar = servis.map((s) => s.dasar);
+		let isFound = false;
 		for (let kata of words.split(" ")) {
 			const ind = keywordsDasar.indexOf(kata.toLowerCase());
 			if (ind >= 0) {
+				isFound = true;
 				dispatch(addDetailProblem(servis[ind].rinci[0]));
 				break;
 			}
 		}
+		if (isFound) history.push("/result");
 	};
 
 	return (

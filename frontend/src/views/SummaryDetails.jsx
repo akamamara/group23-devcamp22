@@ -1,10 +1,17 @@
 import React from "react";
 import Summary from "../components/Summary";
+import useHandleRouting from "../features/useHandleRouting";
 
 export default function SummaryDetails() {
+	const routing = useHandleRouting();
 	return (
 		<>
 			<div className="py-8 px-7 bg-slate-200 min-h-screen">
+				<img
+					src="https://api.iconify.design/ic:baseline-arrow-back.svg?color=%23888888"
+					className="w-8 h-8 cursor-pointer"
+					onClick={routing.handleBack()}
+				/>
 				<div className="space-y-4">
 					<p className="mt-10 cursor-pointer">Belum memenuhi kebutuhan?</p>
 					<h1>👨‍🔧 Rekomendasi Mitra Tukang</h1>
@@ -32,11 +39,11 @@ export default function SummaryDetails() {
 					</div>
 				</div>
 				<div className="flex justify-between gap-6">
-					<button className="flex-1 px-5 py-2 bg-blue-300 rounded-xl mt-10">
+					<button
+						className="flex-1 px-5 py-2 bg-blue-300 rounded-xl mt-10"
+						onClick={routing.handleRoutes("/result/payment")}
+					>
 						Pesan Sekarang
-					</button>
-					<button className="flex-1 px-5 py-2 bg-blue-300 rounded-xl mt-10">
-						Ubah Material
 					</button>
 				</div>
 			</div>

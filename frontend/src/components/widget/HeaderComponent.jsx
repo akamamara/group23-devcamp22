@@ -10,7 +10,7 @@ function HeaderComponent({ type }) {
 		return (
 			<div
 				className="space-y-3 py-3 px-4 "
-				onClick={routing.handleRoutes("input")}
+				onClick={routing.handleRoutes("/input")}
 			>
 				<div className="flex items-center gap-6">
 					<img src={add} className="w-6 h-6 cursor-pointer" />

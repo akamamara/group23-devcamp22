@@ -1,6 +1,7 @@
 import { FilterList, Search } from "@mui/icons-material";
 import { Button, Menu, OutlinedInput, Stack } from "@mui/material";
 import React from "react";
+import { useSelector } from "react-redux";
 import FilterPopover from "../components/FIlterPopover/FilterPopover";
 import HeadingPage from "../components/HeadingPage/HeadingPage";
 import ListViewLayout from "../components/Layout/ListViewLayout";
@@ -16,9 +17,9 @@ export default function WorkersChanges() {
 		setAnchorEl(null);
 	};
 
-	const dummyList = Array(8)
-		.fill()
-		.map((_) => <CardPekerja />);
+	const idListTukang = useSelector((state) => state.problemDetails.list_tukang);
+
+	const dummyList = idListTukang.map((id) => <CardPekerja id={id} />);
 
 	return (
 		<ListViewLayout>
