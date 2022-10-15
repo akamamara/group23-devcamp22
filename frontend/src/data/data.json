@@ -1,0 +1,77 @@
+{
+	"Tukang":[
+		{
+			"kode_tukang":1,
+		}
+	],
+	"Bahan": [
+		{
+			"kode_bahan": 1,
+			"nama_bahan": "Batu Bata",
+			"desc": "Ukuran 0 x 10 x 5cm",
+			"satuan": "pieces",
+			"img_url": "https://blogpictures.99.co/batu-bata-merah.jpg",
+			"price": 950
+		},
+		{
+			"kode_bahan": 2,
+			"nama_bahan": "Semen Gresik",
+			"desc": "40 kg Semen",
+			"satuan": "pieces",
+			"img_url": "http://static.bmdstatic.com/pk/product/large/609a573e90d3d.jpg",
+			"price": 41800.0
+		},
+		{
+			"kode_bahan": 3,
+			"nama_bahan": "Pasir Bangunan",
+			"desc": "Berat 5 kg",
+			"satuan": "kg",
+			"img_url": "https://images.tokopedia.net/img/cache/700/product-1/2020/7/28/1001970/1001970_8d2ede35-36cd-4d37-b5cb-a4b5a72de241_2048_2048.jpg",
+			"price": 25000
+		},
+		{
+			"kode_bahan": 4,
+			"nama_bahan": "Membrane",
+			"desc": "Untuk menambal atap",
+			"satuan": "pieces",
+			"img_url": "https://www.epropertyrack.com/wp-content/uploads/2022/08/Membrane.jpg",
+			"price": 53500
+		},
+		{
+			"kode_bahan": 5,
+			"nama_bahan": "Genteng Mantili Jumbo",
+			"desc": "Untuk membetulkan atap",
+			"satuan": "pieces",
+			"img_url": "https://blogpictures.99.co/genteng-jatiwangicom.jpg",
+			"price": 2000
+		},
+		{
+			"kode_bahan": 6,
+			"nama_bahan": "Cat Waterproof",
+			"desc": "Elastex",
+			"satuan": "kaleng",
+			"img_url": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/3/12/424809465/424809465_784e4326-970f-4de4-a694-deac6b77b499_2048_2048.jpg",
+			"price": 51000
+		},
+	],
+	"servis":[
+		{
+			"kode_servis":1,
+			"dasar": "atap",
+			"rinci":[
+				{	
+					"nama_rinci":"Atap Bocor",
+					"keyword": "bocor",
+					"list_tukang":[1,2,3],
+					"list_bahan":[4,5,6]
+				},
+				{
+					"nama_rinci":"Cat Atap",
+					"keyword": "cat",
+					"list_tukang":[1,2,3],
+					"list_bahan":[6]
+				},
+			]
+		}
+	]
+}
