@@ -40,7 +40,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 ALLOWED_HOSTS = ['*']
-# CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['http://localhost', 'http://127.0.0.1']
 
 CORS_ALLOWED_ORIGINS = []
 CORS_ALLOW_ALL_ORIGINS = True
@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'drf_yasg',
     'craftsman',
 ]
 
